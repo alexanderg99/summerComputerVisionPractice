@@ -201,6 +201,7 @@ class Masking(nn.Module):
     #also this class prevents the decoder from peeking ahead at the output sentence.
 
     def __init__(self):
+        return None
 
 
 class DecoderBlock():
